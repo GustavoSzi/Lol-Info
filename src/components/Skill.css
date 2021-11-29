@@ -1,0 +1,38 @@
+.ability{
+    background-color: #023;
+    padding: 8px 16px;
+    position: absolute;
+    max-width: 400px;
+}
+
+.modal{
+    width: 80vw;
+    height: 80vh;
+    top: 10%;
+    left: 20%;
+    background: rgba( 0, 34, 51, 0.9 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: fixed;
+    padding: 1rem 2rem;
+    z-index: 1000;
+}
+
+.modal button{
+    color: #fff;
+    font-size: 1rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #F5D98F;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.desc{
+    margin-top: 1.5rem;
+}

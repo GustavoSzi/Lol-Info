@@ -1,0 +1,17 @@
+.skin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    height: 420px;
+}
+
+.skin h2{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.skin img{
+    width: 200px;
+}

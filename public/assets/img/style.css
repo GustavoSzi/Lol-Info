@@ -1,0 +1,5 @@
+body{
+    background: linear-gradient(27deg, rgba(2,24,36,1) 0%, rgba(11,51,73,1) 56%, rgba(0,5,8,1) 94%) no-repeat;
+    font-family: 'friz', sans-serif;  
+    min-height: 100vh;
+}

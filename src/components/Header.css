@@ -1,0 +1,56 @@
+header{
+    height: 22vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 2.5rem;
+    color: #F5D98F;
+    text-align: center;
+    text-shadow: 2px 2px 5px #49412c;
+}
+
+.line{
+    height: 1px;
+    background-color: #F5D98F;
+    position: relative;
+}
+
+.line::before, .line::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #F5D98F;
+    position: absolute;
+    top: -5px;
+    transform: rotate(45deg);
+}
+
+.line::after{
+    right: 3px;
+}
+
+.icon{
+    width: 100px;
+    display: inline-block;
+    text-decoration: none;
+    display: flex;
+    margin-top: .3rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon img{
+    width: 85%;
+    filter: grayscale(100%);
+}
+
+.icon h3{
+    color: #fff;
+    text-align: center;
+}

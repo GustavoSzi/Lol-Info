@@ -1,0 +1,42 @@
+.infos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.infos img{
+    border-radius: 4px;
+}
+
+.infos h1{
+    color: #F5D98F;
+    font-size: 2rem;
+}
+
+.infos p{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.description{
+    width: 55vw;
+}
+
+.skinsArea{
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+}
+
+#skills {
+    margin-top: 4rem;
+    
+}
+
+#skills div{
+    margin: 1rem 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
